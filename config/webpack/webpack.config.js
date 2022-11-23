@@ -14,7 +14,6 @@ module.exports = {
     application: [
       './app/javascript/application.js',
       './app/javascript/stylesheets/application.scss',
-      './app/assets/stylesheets/application.css',
     ],
   },
   module: {

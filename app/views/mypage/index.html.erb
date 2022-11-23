@@ -24,7 +24,8 @@
         <td>
           <%= link_to '詳細', article, class: "btn btn-success" %>
           <%= link_to '編集', edit_article_path(article), class: "btn btn-warning" %>
-          <%= link_to '削除', article, class: "btn btn-danger", method: :delete, data: { confirm: 'Are you sure?' } %>
+          <%= link_to '削除', article, class: "btn btn-danger", data: { "turbo-method": :delete , "turbo-confirm": "Are you sure?"}
+          %>
         </td>
       </tr>
     <% end %>

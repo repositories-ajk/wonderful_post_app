@@ -2,28 +2,19 @@
   "name": "wonderful_post_app",
   "private": true,
   "dependencies": {
-    "@hotwired/turbo-rails": "^7.2.4",
     "@popperjs/core": "^2.11.0",
     "@rails/actioncable": "^6.0.0",
     "@rails/activestorage": "^6.0.0",
     "@rails/ujs": "^6.0.0",
+    "@rails/webpacker": "4.3.0",
     "bootstrap": "^5.1.3",
-    "css-loader": "^6.7.1",
-    "mini-css-extract-plugin": "^2.6.1",
-    "sass": "^1.56.1",
-    "sass-loader": "^13.2.0",
     "turbolinks": "^5.2.0",
     "vue": "^2.6.14",
     "vue-loader": "^15.9.8",
-    "vue-template-compiler": "^2.6.14",
-    "webpack": "^5.75.0",
-    "webpack-remove-empty-scripts": "^1.0.1"
+    "vue-template-compiler": "^2.6.14"
   },
   "version": "0.1.0",
   "devDependencies": {
-    "webpack-cli": "^4.10.0"
-  },
-  "scripts": {
-    "build": "webpack --config ./config/webpack/webpack.config.js"
+    "webpack-dev-server": "^4.6.0"
   }
 }
